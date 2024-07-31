@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        /* Custom Styles */
+        body {
+            padding-top: 70px;
+            background: url('bkim1.jpg') no-repeat;
+            background-size: cover;
+            padding: 60px 0;
+        }
+        .navbar-brand {
+            font-size: 24px;
+        }
+        .section-heading {
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+        .section-subheading {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+        .portfolio-item {
+            margin-bottom: 30px;
+            padding: 15px;
+            box-sizing: border-box;
+        }
+        .portfolio-caption {
+            text-align: center;
+            
+        }
+        .team-member img {
+            border-radius: 50%;
+            justify-content: center;
+            align-items: center;
+        }
+        .modal-content img {
+            width: 100%;
+        }
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            background: #adb0b0;
+            padding: 20px 0;
+        }
+        
+    </style>
+    <link rel="stylesheet" href="h.css">
+    <script src="h.js" defer></script>
+
+</head>
+<body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-menu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top">My Portfolio</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-menu">
+                <ul class="nav navbar-nav">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">About Me</h2>
+                <h3 class="section-subheading text-muted">Hi There!</h3>
+                <p style=" width: 100%;text-align: justify;" >Hello! I'm Jaslyn Shona D Souza, a passionate and dedicated 3rd-year AI and ML engineering student at St. Joseph Engineering College, Mangalore. With a strong foundation in web development and programming, I thrive on solving complex problems and bringing innovative ideas to life.
+
+                    My journey in technology has been marked by hands-on projects that demonstrate my proficiency in HTML, CSS, JavaScript, and WordPress. I have successfully developed and launched websites that significantly enhance online presence. Additionally, my experience in creating prototypes and managing systems using MySQL, PHP, and XAMPP has equipped me with robust backend and database management skills.
+                    
+                    I am an enthusiastic learner who loves tackling challenges that involve logical thinking and reasoning. My commitment to continuous improvement is reflected in my diverse projects, from developing a LiFi prototype for wireless communication to conducting cardiovascular stent analysis using Ansys.
+                    
+                    Beyond my technical expertise, I possess strong team leader skills and the ability to understand and leverage the strengths and weaknesses of my team members. My participation in various volunteer activities, such as organizing events for TEDx and contributing to climate change awareness, highlights my dedication to community engagement and effective communication.
+                    
+                    I am currently seeking opportunities to apply my skills in a dynamic environment, where I can contribute to innovative solutions and further develop my expertise. Whether it's in cybersecurity, software engineering, or any other area of software development, I am flexible and eager to embrace new challenges as a fresher.
+                    
+                    Let's connect and explore how we can collaborate to create something extraordinary!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="container">
+        <div class="container">
+            <div class="row"><h3 style="text-align:center">PROJECTS</h3>
+                <div class="col-md-6 col-sm-12 portfolio-item">
+                   
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <iframe src="website.html" frameborder="0" height="400" width="100%"></iframe>
+                    </a>
+                    
+                    <div class="portfolio-caption">
+                        <h4>Project 1-Business Website</h4>
+                        <p class="text-muted justified italic">
+                            The project aims to establish a comprehensive Business Website dedicated to providing detailed 
+                            information about the training facilities offered by a Martial Arts center. Our primary objective is 
+                            to create a user-friendly platform that serves as a gateway for individuals seeking information on 
+                            Martial Arts programs and facilitates easy access to contact details for enrollment inquiries. The 
+                            scope of the project encompasses a thorough presentation of the training center's offerings, allowing 
+                            users to explore various programs and gain valuable insights into the overall services provided. The 
+                            Business Website is designed to address the need for an accessible and informative platform, 
+                            offering a solution to showcase training opportunities, while ensuring the security of data managed 
+                            by a dedicated administrator. This initiative addresses the problem of a lack of such a platform, 
+                            providing individuals with a valuable resource to explore and engage with the Martial Arts training 
+                            center.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <iframe src="Cardi_Stent_simulation.mp4" frameborder="0" height="400" width="100%"></iframe>
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Project 2-Stent Analysis using Ansys</h4>
+                        <p class="text-muted justified italic">
+                            This project uses ANSYS to simulate and analyze cardiovascular stents during balloon angioplasty, focusing on mechanical reactions and finite element analysis (FEA). The study examines stent deployment mechanics, emphasizing recoil percentage, stress sites, and residual stresses to meet FDA standards. It includes pre-analysis of the mathematical model, addressing contact and material nonlinearities, and highlights the importance of sub-step iterations in high-deflection scenarios. The project provides a step-by-step tutorial for setting up ANSYS simulations, considering material properties and hyperelasticity parameters.
+                        </p>
+                    </div>
+                </div>
+                <!-- Add more portfolio items as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- certifications Section -->
+    <section id="team" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Certifications</h2>
+                    <h3 class="section-subheading text-muted">Cybersecurity</h3>
+                    <div class="certificate-container">
+                        <img src="cyber1.png" alt="Certificate 1" height="200px" width="200px">
+                        <img src="cyberisk.png" alt="Certificate 2" height="200px" width="200px">
+                    </div>
+                    <h3 class="section-subheading text-muted">Matlab - Computer Vision & modeling dynamic systems</h3>
+                    <div class="certificate-container">
+                        <img src="cvo.png" alt="Certificate 1" height="200px" width="200px">
+                        <img src="simo.png" alt="Certificate 2" height="200px" width="200px">
+                        <img src="simu.png" alt="Certificate 3" height="200px" width="200px">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <br/>
+                        <img src="AI025.jpg" class="img-responsive" height="100px" width="100px" alt="Team Member 1">
+                        <h4>Jaslyn Shona D Souza</h4>
+                        <p class="text-muted">AIML Engineer</p>
+                        <ul class="list-inline">
+                            
+                            <li><a href="https://github.com/Jaslyn10"><i class="fa fa-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/jaslyn-shona-dsouza-981866291"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Contact Me</h2>
+                <button onclick="dialNumber('+123454347')">Call +123454347</button>
+                <h3 class="section-subheading text-muted">Get in touch with me.</h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form id="contactForm" onsubmit="sendMessage(event)">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your Name *" id="name" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Your Message *" id="message" required></textarea>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 text-center">
+                                <button type="submit" class="btn btn-primary">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright © Your Website 2024</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline">
+                        <li><a href="#"><i class="fa fa-gitub"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Include jQuery and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
